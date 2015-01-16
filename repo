@@ -1,0 +1,75 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+      Cydia Repo · GamerWorld
+    </title>
+    <!--
+<base target="_top">
+-->
+  <base href="." target="_top">
+  <link rel="stylesheet" type="text/css" href="info/cytyle.css">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <script type="text/javascript" src="info/fastclick.js">
+  </script>
+  <script type="text/javascript" src="info/cytyle.js">
+  </script>
+  <!--
+<base target="_top">
+-->
+  <base href="." target="_top">
+  <style type="text/css">
+    p, input[type="password"], input[type="text"], select {
+      top: 0.0625em;
+    }
+    
+  </style>
+  <script type="text/javascript">
+    if(navigator.userAgent.search(/Cydia/)!=-1){
+      var title=document.title;
+      var dot=title.indexOf('·');
+      if(dot!=-1)
+        document.title=title.substring(0,dot);
+    }
+  </script>
+  </head>
+  <body class="pinstripe">
+    <panel>
+      <block style="background-color:#ddf">
+        <p>
+          <strong>
+            <a href="https://linusyang.com/">Linus Yang</a>'s Personal
+            <br /> Cydia Repository
+          </strong>
+        </p>
+      </block>
+      <label><p>Disclaimer</p></label>
+      <block  style="background-color:#ffeeee">
+        <p>This repository contains beta packages and is only for testing.</p>
+        <p><strong>Use at your own risk!</strong></p>
+      </block>
+      <label><p>Add Source</p></label>
+      <fieldset>
+        <a href="cydia://sources/add">
+          <img class="icon" src="https://cydia.saurik.com/icon@2x/cydia7.png">
+          <div>
+            <div>
+              <label>
+                <p>
+                  Add Source to Cydia
+                </p>
+              </label>
+            </div>
+          </div>
+        </a>
+        <div>
+          <p>
+            http://gamerworld.googlecode.com/svn/
+          </p>
+        </div>
+      </fieldset>
+    </panel>
+  </body>
+</html>
